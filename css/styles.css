@@ -47,6 +47,12 @@ li {
   width: 16.66667%;
 }
 
+@media screen and (max-width: 600px) {
+  #main-nav li {
+    width: 100%;
+  }
+}
+
 #main-nav a {
   color: #f8f9fb;
   text-decoration: none;
@@ -56,7 +62,7 @@ li {
 }
 
 #main-nav a:hover {
-  background: #333;
+  background: #04455b;
 }
 
 section h1 {
@@ -88,6 +94,12 @@ section h1 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 3000px) and (min-width: 1200px) {
+  .lead-banner span {
+    font-size: 68px;
+  }
+}
+
 .lead-banner span.title {
   font-weight: normal;
   margin-bottom: 30px;
@@ -114,6 +126,12 @@ section h1 {
   display: block;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 1200px) {
+  .lessons-banner span {
+    font-size: 68px;
+  }
 }
 
 .lessons-banner span.title {
@@ -151,7 +169,7 @@ section h1 {
 }
 
 #services a:hover {
-  color: red;
+  color: #3e1203;
 }
 
 #services ul:after {
@@ -162,12 +180,12 @@ section h1 {
 
 #projects li {
   float: left;
-  margin-right: 8%;
-  margin-bottom: 8%;
-  width: 46%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 15%;
 }
 
-#projects li:nth-child(2n) {
+#projects li:nth-child(6n) {
   margin-right: 0;
 }
 
